@@ -8,8 +8,27 @@ This is my webpack boilerplate for some awesome projects 💁‍♂️
 
 ## What do we have?
 
-Here we have a project that can running with webpack. So all source files are in `src` folder. All output files are in dist folder.
+Here we have a project that can running with webpack. 
 
+Structure of this project
+```
+├── dist
+├── node_modules
+├── src
+ ├── js
+ ├── scss
+ └── index.html
+├── webpack
+ ├── .eslintrc
+ ├── loaders.js
+ ├── plugins.js
+ ├── postcss.config.js
+ └── babel.config.js
+├── .gitignore
+├── package.json
+├── README.md
+└── yarn.lock
+```
 ## How use it?
 
 Here is the plan:
@@ -19,7 +38,6 @@ Here is the plan:
 2. In this folder run command `yarn`
 
 3. Once you've installed all dependencies you can use it!
-
 
 
 
